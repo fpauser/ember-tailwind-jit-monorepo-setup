@@ -1,7 +1,8 @@
 # @etjms/webapp
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+An ember-tailwind-jit-monorepo-setup with a shared tailwind config.
+
+See https://github.com/tailwindlabs/tailwindcss-jit and https://www.youtube.com/watch?v=3O_3X7InOw8 for more details about @tailwindcss/jit.
 
 ## Prerequisites
 
@@ -15,39 +16,20 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd @etjms/webapp`
+* `git clone https://github.com/fpauser/ember-tailwind-jit-monorepo-setup` this repository
+* `cd packages/webapp`
 * `yarn install`
 
 ## Running / Development
 
-* `ember serve`
+* `yarn start`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 * Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Linting
-
-* `yarn lint:hbs`
-* `yarn lint:js`
-* `yarn lint:js --fix`
 
 ### Building
 
 * `ember build` (development)
 * `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 

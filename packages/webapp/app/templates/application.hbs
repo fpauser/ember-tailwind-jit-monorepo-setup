@@ -1,7 +1,19 @@
 {{page-title "@etjms/webapp"}}
 
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
+<h2 id="title" class="m-8 font-bold text-5xl">@etjms/webapp</h2>
+
+<div class="bg-gray-200 p-8 m-8 flex space-x-4">
+  <Ui::FancyButton class="bg-purple-100 text-red-400">
+    Fancy Button
+  </Ui::FancyButton>
+
+  <Ui::FancyButton class="bg-blue-700 text-red-700">
+    Fancy Button
+  </Ui::FancyButton>
+
+  <Ui::FancyButton class="bg-black text-white">
+    Fancy Button
+  </Ui::FancyButton>
+</div>
 
 {{outlet}}
