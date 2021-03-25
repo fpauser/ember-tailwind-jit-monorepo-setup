@@ -1,29 +1,10 @@
 @etjms/ui
 ==============================================================================
 
-[Short description of the addon.]
-
-
-Compatibility
-------------------------------------------------------------------------------
-
-* Ember.js v3.16 or above
-* Ember CLI v2.13 or above
-* Node.js v10 or above
-
-
-Installation
-------------------------------------------------------------------------------
-
-```
-ember install @etjms/ui
-```
-
-
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+Start via `yarn start` or `TAILWIND_MODE=watch ember s` to get @tailwind/jit working properly.
 
 
 Contributing
