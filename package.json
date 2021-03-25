@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "name": "ember-tailwind-jit-monorepo-setup",
+  "workspaces": [
+    "packages/*"
+  ]
+}
