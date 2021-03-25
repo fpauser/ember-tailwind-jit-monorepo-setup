@@ -1,11 +1,19 @@
-{{page-title "Dummy"}}
+{{page-title "@etjms/ui (dummy)"}}
 
-<h2 id="title">@etjms/ui</h2>
+<h2 id="title" class="m-8 font-bold text-5xl">@etjms/ui (dummy)</h2>
 
-<hr>
+<div class="bg-gray-200 p-8 m-8 flex space-x-4">
+  <Ui::FancyButton class="bg-purple-700 text-yellow-600">
+    Fancy Button
+  </Ui::FancyButton>
 
-<Ui::FancyButton>
-  Fancy Button
-</Ui::FancyButton>
+  <Ui::FancyButton class="bg-blue-500 text-white">
+    Fancy Button
+  </Ui::FancyButton>
+
+  <Ui::FancyButton class="bg-red-900 text-yellow-200">
+    Fancy Button
+  </Ui::FancyButton>
+</div>
 
 {{outlet}}
